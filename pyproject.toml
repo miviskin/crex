@@ -39,6 +39,9 @@ dev = [
 [project.urls]
 "GitHub" = "https://github.com/miviskin/crex"
 
+[tool.hatch.version]
+path = "src/crex/constants.py"
+
 [tool.hatch.build]
 only-packages = true
 
